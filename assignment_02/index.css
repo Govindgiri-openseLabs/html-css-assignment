@@ -1,9 +1,11 @@
 *{
-  margin: 0;
-  padding:0;
+ 
 }
 html,body{
   height: 100%;
+   margin: 0;
+  padding:0;
+  overflow: hidden;
 }
 .img_class {
   background-image: url('images/img1.jpg');
@@ -21,7 +23,7 @@ html,body{
     background-color: rgb(2, 2, 2);
    position: relative;
    width: 17%;
-   height:482px;
+   height:350px;
    border: 0.5px rgb(65, 65, 65) solid;
    opacity: 0.8;
 }
@@ -29,7 +31,7 @@ html,body{
   background-color: rgb(2,2,2);
   position: relative;
   width: 22%;
-  height: 482px;
+  height: 350px;
   border:0.5px rgb(65,65,65) solid;
   opacity: 0.8;
   color: rgb(179, 175, 175);
